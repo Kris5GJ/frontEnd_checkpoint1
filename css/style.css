@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/Nadal_a_Cali_2013_49.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cabecalho{
+    text-align: center;
+}
+  
+#titulo{
+    padding: 12px;
+    font-family: Handlee, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+h1{
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px blue,
+               6px 6px 4px green;
+}
+main p{
+    padding: 12px;
+    color: seashell;
+    font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+}
+
+main{
+    text-align: center;
+}
+
+.fundoP{
+    background-color: rgba(75, 74, 74, 0.712);
+}
+
+span{
+    border-radius: 8px;
+    padding: 0.5px;
+    font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(209, 209, 209, 0.6) ;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.753);
+    text-shadow: 2px 2px 2px blue,
+               4px 4px 3px green,
+               12px 12px 12px white;
+    padding: 10px;
+    font-family: Nunito,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+ul{
+    width: 450px;
+    position: relative;
+    left: 50%;
+    margin-left: -225px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(172, 169, 169, 0.514);    
+}
+li{
+    padding: 2px;
+    list-style: none;
+    font-style: oblique;
+    font-family: Handlee, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+img{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(228, 228, 228, 0.61);
+    border-radius: 10px;
+}
+
+.redes{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+footer{
+    padding: 3px;
+    margin-top: 3px;
+}
